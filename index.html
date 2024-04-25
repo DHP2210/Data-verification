@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="buttons">
+        <button class="btn1">Add item</button>
+        <button class="btn2">Clear items</button>
+    </section>
+
+    <!-- <section class="data">
+        <div class="product-details">
+            <div class="id"> ID</div>
+            <div class="name">Name</div>
+            <div class="category">Category</div>
+            <div class="price">Price</div>
+            <div class="availability">Availability</div>
+            <div class="edit">Edit</div>
+            <div class="delete">Delete</div>
+        </div>
+    </section> -->
+
+    <table class="data" id="table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Availability</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <hr class="hr">
+
+
+    </table>
+    <!-- <section class="parent">
+        <div class="product-details">
+            <div class="static-id">1</div>
+            <div class="static-name">Mustang Gt</div>
+            <div class="static-category">Ford Car</div>
+            <div class="static-price">60,00,000</div>
+            <div class="static-availability">4</div>
+            <button class="static-edit">Edit</button>
+            <button class="static-delete">Delete</button>
+        </div>
+    </section> -->
+
+
+
+    <!-- <section class="form">
+        <div class="form-details">
+            <div class="itemid">Item Id: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<input type=""
+                    class="place">
+            </div>
+            <div class="itemName"> Item Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<input type="" class="place">
+            </div>
+            <div class="itemCategory">Item Category: &emsp;&emsp;<input type="" class="place"></div>
+            <div class="itemPrice">Item Price: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<input type="" class="place">
+            </div>
+            <div class="itemAvailability">Item Availability:&emsp;<input type="" class="place"></div>
+            <button class="formAddbtn">Add</button>
+            <button class="formCancelbtn">Cancel</button>
+        </div>
+    </section> -->
+
+    <section class="form">
+        <form class="form-details">
+            <div class="form-details">
+                <label for="itemid">Item Id:</label>
+                <input type="number" id="itemid" class="place" required>
+            </div>
+            <div class="form-details">
+                <label for="itemName">Item Name:</label>
+                <input type="text" id="itemName" class="place" required>
+            </div>
+            <div class="form-details">
+                <label for="itemCategory">Item Category:</label>
+                <input type="text" id="itemCategory" class="place" required>
+            </div>
+            <div class="form-details">
+                <label for="itemPrice">Item Price:</label>
+                <input type="number" id="itemPrice" class="place" required>
+            </div>
+            <div class="form-details">
+                <label for="itemAvailability">Item Availability:</label>
+                <input type="number" id="itemAvailability" class="place" required>
+            </div>
+            <button type="submit" class="formAddbtn">Add</button>
+            <button type="button" class="formCancelbtn">Cancel</button>
+        </form>
+    </section>
+
+
+    <section class="form2">
+        <form class="form-details">
+            <div class="form-details">
+                <label for="editItemid">Item Id:</label>
+                <input type="number" id="editItemid" class="place" readonly required>
+            </div>
+            <div class="form-details">
+                <label for="editItemName">Item Name:</label>
+                <input type="text" id="editItemName" class="place" required>
+            </div>
+            <div class="form-details">
+                <label for="editItemCategory">Item Category:</label>
+                <input type="text" id="editItemCategory" class="place" required>
+            </div>
+            <div class="form-details">
+                <label for="editItemPrice">Item Price:</label>
+                <input type="number" id="editItemPrice" class="place" required>
+            </div>
+            <div class="form-details">
+                <label for="editItemAvailability">Item Availability:</label>
+                <input type="text" id="editItemAvailability" class="place" required>
+            </div>
+            <button type="button" class="formSavebtn">Save</button>
+            <button type="button" class="form2Cancelbtn">Cancel</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

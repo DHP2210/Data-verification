@@ -1,0 +1,90 @@
+.btn1 {
+    margin: 2rem 20rem;
+    height: 2rem;
+    cursor: pointer;
+    width: 6rem;
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.btn2 {
+    margin: 2rem 20rem;
+    height: 2rem;
+    cursor: pointer;
+    width: 6rem;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+.form-details {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.formAddbtn {
+    height: 2rem;
+    cursor: pointer;
+    width: 6rem;
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.formCancelbtn {
+    height: 2rem;
+    cursor: pointer;
+    width: 6rem;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+table {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+#editbtn {
+    color: whitesmoke;
+    background-color: blue;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    width: 5rem;
+}
+
+#deletebtn {
+    color: whitesmoke;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    width: 5rem;
+}
+
+.formSavebtn {
+    height: 2rem;
+    cursor: pointer;
+    width: 6rem;
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.form2Cancelbtn {
+    height: 2rem;
+    cursor: pointer;
+    width: 6rem;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: whitesmoke;
+}
